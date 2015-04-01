@@ -27,6 +27,10 @@
         <target>Gran Proyecto</target>
         <note>Class = "UILabel"; text = "Big Project"; ObjectID = "WMG-1v-e0C";</note>
       </trans-unit>
+      <trans-unit id="hCH-1s-PB9.text">
+        <source>This is a new label in the storyboard.</source>
+        <note>Class = "UILabel"; text = "This is a new label in the storyboard."; ObjectID = "hCH-1s-PB9";</note>
+      </trans-unit>
       <trans-unit id="hw2-0S-fRs.text">
         <source>This is a big project that needs to be translated into many languages.  This label is in the storyboard.</source>
         <target>Este es un gran proyecto que necesita ser traducido a muchos idiomas. Esta etiqueta está en el guión gráfico.</target>
@@ -55,6 +59,10 @@
       <trans-unit id="This is label number 3 from code">
         <source>This is label number 3 from code</source>
         <target>Esta es la etiqueta del número 3 del código</target>
+        <note>keep it simple</note>
+      </trans-unit>
+      <trans-unit id="This is label number 4 from code">
+        <source>This is label number 4 from code</source>
         <note>keep it simple</note>
       </trans-unit>
     </body>
