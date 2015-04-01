@@ -1,6 +1,6 @@
-
 /* Class = "UILabel"; text = "Big Project"; ObjectID = "WMG-1v-e0C"; */
-"WMG-1v-e0C.text" = "Big Project";
+"WMG-1v-e0C.text" = "Gran Proyecto";
 
 /* Class = "UILabel"; text = "This is a big project that needs to be translated into many languages.  This label is in the storyboard."; ObjectID = "hw2-0S-fRs"; */
-"hw2-0S-fRs.text" = "This is a big project that needs to be translated into many languages.  This label is in the storyboard.";
+"hw2-0S-fRs.text" = "Este es un gran proyecto que necesita ser traducido a muchos idiomas. Esta etiqueta está en el guión gráfico.";
+
