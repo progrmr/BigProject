@@ -36,6 +36,10 @@
 		8EDC00111ACC226A001DF6D5 /* BigProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BigProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EDC00161ACC226A001DF6D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8EDC00171ACC226A001DF6D5 /* BigProjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BigProjectTests.m; sourceTree = "<group>"; };
+		8EDC00211ACC299A001DF6D5 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Main.strings; sourceTree = "<group>"; };
+		8EDC00221ACC299A001DF6D5 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		8EDC00231ACC29B1001DF6D5 /* he */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = he; path = he.lproj/Main.strings; sourceTree = "<group>"; };
+		8EDC00241ACC29B1001DF6D5 /* he */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = he; path = he.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		8EDCFFF81ACC226A001DF6D5 /* BigProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BigProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EDCFFFC1ACC226A001DF6D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8EDCFFFD1ACC226A001DF6D5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -248,6 +252,8 @@
 			isa = PBXVariantGroup;
 			children = (
 				8EDC00061ACC226A001DF6D5 /* Base */,
+				8EDC00211ACC299A001DF6D5 /* es */,
+				8EDC00231ACC29B1001DF6D5 /* he */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -256,6 +262,8 @@
 			isa = PBXVariantGroup;
 			children = (
 				8EDC000B1ACC226A001DF6D5 /* Base */,
+				8EDC00221ACC299A001DF6D5 /* es */,
+				8EDC00241ACC29B1001DF6D5 /* he */,
 			);
 			name = LaunchScreen.xib;
 			sourceTree = "<group>";
