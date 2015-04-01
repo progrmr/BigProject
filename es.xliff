@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
+  <file original="BigProject/Base.lproj/LaunchScreen.xib" source-language="en" datatype="plaintext" target-language="es">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.2" build-num="6C131e"/>
+    </header>
+    <body>
+      <trans-unit id="8ie-xW-0ye.text">
+        <source>  Copyright (c) 2015 Gary Morris. All rights reserved.</source>
+        <target>  Copyright (c) 2015 Gary Morris. All rights reserved.</target>
+        <note>Class = "UILabel"; text = "  Copyright (c) 2015 Gary Morris. All rights reserved."; ObjectID = "8ie-xW-0ye";</note>
+      </trans-unit>
+      <trans-unit id="kId-c2-rCX.text">
+        <source>BigProject</source>
+        <target>BigProject</target>
+        <note>Class = "UILabel"; text = "BigProject"; ObjectID = "kId-c2-rCX";</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="BigProject/Base.lproj/Main.storyboard" source-language="en" datatype="plaintext" target-language="es">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.2" build-num="6C131e"/>
+    </header>
+    <body>
+      <trans-unit id="WMG-1v-e0C.text">
+        <source>Big Project</source>
+        <target>Gran Proyecto</target>
+        <note>Class = "UILabel"; text = "Big Project"; ObjectID = "WMG-1v-e0C";</note>
+      </trans-unit>
+      <trans-unit id="hw2-0S-fRs.text">
+        <source>This is a big project that needs to be translated into many languages.  This label is in the storyboard.</source>
+        <target>Este es un gran proyecto que necesita ser traducido a muchos idiomas. Esta etiqueta está en el guión gráfico.</target>
+        <note>Class = "UILabel"; text = "This is a big project that needs to be translated into many languages.  This label is in the storyboard."; ObjectID = "hw2-0S-fRs";</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="BigProject/Info.plist" source-language="en" datatype="plaintext" target-language="es">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.2" build-num="6C131e"/>
+    </header>
+    <body>
+      <trans-unit id="CFBundleName">
+        <source>$(PRODUCT_NAME)</source>
+      </trans-unit>
+      <trans-unit id="CFBundleShortVersionString">
+        <source>1.0</source>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="BigProject/Localizable.strings" source-language="en" datatype="plaintext" target-language="es">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.2" build-num="6C131e"/>
+    </header>
+    <body>
+      <trans-unit id="This is label number 3 from code">
+        <source>This is label number 3 from code</source>
+        <target>Esta es la etiqueta del número 3 del código</target>
+        <note>keep it simple</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="BigProjectTests/Info.plist" source-language="en" datatype="plaintext" target-language="es">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.2" build-num="6C131e"/>
+    </header>
+    <body>
+      <trans-unit id="CFBundleName">
+        <source>$(PRODUCT_NAME)</source>
+      </trans-unit>
+      <trans-unit id="CFBundleShortVersionString">
+        <source>1.0</source>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
