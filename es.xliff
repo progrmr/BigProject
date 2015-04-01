@@ -29,6 +29,7 @@
       </trans-unit>
       <trans-unit id="hCH-1s-PB9.text">
         <source>This is a new label in the storyboard.</source>
+        <target>Esta es una nueva etiqueta en el guión gráfico.</target>
         <note>Class = "UILabel"; text = "This is a new label in the storyboard."; ObjectID = "hCH-1s-PB9";</note>
       </trans-unit>
       <trans-unit id="hw2-0S-fRs.text">
@@ -63,6 +64,7 @@
       </trans-unit>
       <trans-unit id="This is label number 4 from code">
         <source>This is label number 4 from code</source>
+        <target>Este es el número de etiqueta de código de 4</target>
         <note>keep it simple</note>
       </trans-unit>
     </body>
