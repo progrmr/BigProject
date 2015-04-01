@@ -1,20 +1,22 @@
 {\rtf1\ansi\ansicpg1252\cocoartf1344\cocoasubrtf720
-{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\fnil\fcharset0 Menlo-Regular;}
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\fnil\fcharset0 Menlo-Regular;\f2\fnil\fcharset0 Menlo-Bold;
+}
 {\colortbl;\red255\green255\blue255;}
-\margl1440\margr1440\vieww14560\viewh14120\viewkind0
+\margl1440\margr1440\vieww16660\viewh19200\viewkind0
 \pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural
 
-\f0\fs24 \cf0 1. Create BigProject.\
-2. Use 
-\b NSLocalizedString
-\b0  macro for strings in code.\
+\f0\b\fs28 \cf0 1. Create BigProject.\
+2. Use NSLocalizedString macro for strings in code.\
 3. Nothing special done for storyboard strings.\
-\
+
+\b0\fs24 \
  http://www.ibabbleon.com/iphone_app_localization.html\
 \
-4. Enable  \'93Use Base Internationalization\'94 (default in new projects), \
+
+\b\fs28 4. Enable  \'93Use Base Internationalization\'94 (default in new projects), \
 	This moves all resource files to the Base.lproj folder.\
-\
+
+\b0\fs24 \
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
 
 \f1\fs22 \cf0 \CocoaLigature0 GaryM-Mac-Mini-2:Base.lproj garym$ ls -l\
@@ -24,10 +26,12 @@ total 24\
 \pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural
 
 \f0\fs24 \cf0 \CocoaLigature1 \
-5. Add languages using \'93Editor\'94 -> \'93Add Localization\'85\'94 menu to add languages (i.e.: Spanish & Hebrew)\
+
+\b\fs28 5. Add languages using \'93Editor\'94 -> \'93Add Localization\'85\'94 menu to add languages (i.e.: Spanish & Hebrew)\
 	This adds \'93es.lproj\'94 and \'93he.lproj\'94 folders and string files.  \
 	This exports strings from Main.storyboard and LaunchScreen.xib into strings files\
-\
+
+\b0\fs24 \
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
 
 \f1\fs22 \cf0 \CocoaLigature0 GaryM-Mac-Mini-2:BigProject garym$ ls -l\
@@ -62,8 +66,10 @@ GaryM-Mac-Mini-2:BigProject garym$ cat es.lproj/Main.strings\
 /* Class = "UILabel"; text = "This is a big project that needs to be translated into many languages.  This label is in the storyboard."; ObjectID = "hw2-0S-fRs"; */\
 "hw2-0S-fRs.text" = "This is a big project that needs to be translated into many languages.  This label is in the storyboard.";\
 \
-6. Generate strings from code for English, useful if we ever use keys:\
-\
+
+\f2\b\fs28 6. Generate strings from code for English, useful if we ever use keys:\
+
+\f1\b0\fs22 \
 GaryM-Mac-Mini-2:BigProject garym$ mkdir en.lproj\
 GaryM-Mac-Mini-2:BigProject garym$ find . -name \\*.m | xargs genstrings -o en.lproj\
 GaryM-Mac-Mini-2:BigProject garym$ ls -l en.lproj\
@@ -74,8 +80,10 @@ GaryM-Mac-Mini-2:BigProject garym$ cat en.lproj/Localizable.strings \
 ??/* keep it simple */\
 "This is label number 3 from code" = "This is label number 3 from code";\
 \
-We now have 4 lproj folders.  Base has English strings for storyboards & xibs, en.lproj has English strings from code.  The es.lproj and he.lproj have strings for storyboards & xibs only.\
-\
+
+\f2\b\fs28 We now have 4 lproj folders.  Base has English strings for storyboards & xibs, en.lproj has English strings from code.  The es.lproj and he.lproj have strings for storyboards & xibs only.\
+
+\f1\b0\fs22 \
 GaryM-Mac-Mini-2:BigProject garym$ ls -l\
 total 48\
 -rw-r--r--@ 1 garym  staff   281 Apr  1 05:56 AppDelegate.h\
@@ -90,8 +98,10 @@ drwxr-xr-x@ 4 garym  staff   136 Apr  1 06:26 es.lproj\
 drwxr-xr-x@ 4 garym  staff   136 Apr  1 06:27 he.lproj\
 -rw-r--r--@ 1 garym  staff   338 Apr  1 05:56 main.m\
 \
-7. Export strings to xliff file.  Select Project, menu \'93Editor\'94 \'97> \'93Export for Localization\'85\'94.  Include \'93Existing Translation\'94 and all existing languages should be checked.\
-\
+
+\f2\b\fs28 7. Export strings to xliff file.  Select Project, menu \'93Editor\'94 \'97> \'93Export for Localization\'85\'94.  Include \'93Existing Translation\'94 and all existing languages should be checked.\
+
+\f1\b0\fs22 \
 GaryM-Mac-Mini-2:BigProject garym$ ls -l\
 total 64\
 drwxr-xr-x@ 13 garym  staff    442 Apr  1 06:41 BigProject\
@@ -102,7 +112,8 @@ drwxr-xr-x@  4 garym  staff    136 Apr  1 05:56 BigProjectTests\
 -rw-r--r--@  1 garym  staff   3535 Apr  1 06:51 es.xliff\
 -rw-r--r--@  1 garym  staff   3535 Apr  1 06:51 he.xliff\
 \
-8. Send the xliff files to the translators.  Get them back and update the xliff files in the project.\
+
+\f2\b\fs28 8. Send the xliff files to the translators.  Get them back and update the xliff files in the project.\
 \
 9. Import the xliff files.  This steps automatically updates the strings files that Xcode uses.\
 \
