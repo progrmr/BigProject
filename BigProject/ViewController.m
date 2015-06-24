@@ -27,6 +27,15 @@
     label3.textAlignment = NSTextAlignmentNatural;
     [self.view addSubview:label3];
     
+    UILabel* label4 = [[UILabel alloc] init];
+    label4.text = NSLocalizedString(@"This is label number 4 from code", @"keep it simple");
+    label4.frame = CGRectMake(10,65,300,25);
+    label4.numberOfLines = 0;
+    label4.adjustsFontSizeToFitWidth = YES;
+    label4.minimumScaleFactor = 0.66f;
+    label4.textAlignment = NSTextAlignmentNatural;
+    [self.view addSubview:label4];
+    
     for (UIView* v in self.view.subviews) {
         v.layer.borderColor = [UIColor greenColor].CGColor;
         v.layer.borderWidth = 1;

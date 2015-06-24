@@ -17,16 +17,22 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="This is a big project that needs to be translated into many languages.  This label is in the storyboard." lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hw2-0S-fRs">
-                                <rect key="frame" x="26" y="203" width="478" height="41"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Big Project" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WMG-1v-e0C">
                                 <rect key="frame" x="222" y="108" width="139" height="35"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="29"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="This is a big project that needs to be translated into many languages.  This label is in the storyboard." lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hw2-0S-fRs">
+                                <rect key="frame" x="26" y="203" width="478" height="41"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="This is a new label in the storyboard." lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hCH-1s-PB9">
+                                <rect key="frame" x="26" y="264" width="299" height="41"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
@@ -34,9 +40,11 @@
                         <constraints>
                             <constraint firstAttribute="trailingMargin" secondItem="hw2-0S-fRs" secondAttribute="trailing" constant="80" id="4xo-jx-ZvX"/>
                             <constraint firstItem="hw2-0S-fRs" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="10" id="Bld-rY-Iio"/>
+                            <constraint firstItem="hCH-1s-PB9" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="10" id="GPd-XP-W8t"/>
                             <constraint firstAttribute="centerX" secondItem="WMG-1v-e0C" secondAttribute="centerX" constant="8.5" id="TE8-SU-Q1S"/>
                             <constraint firstItem="hw2-0S-fRs" firstAttribute="top" secondItem="WMG-1v-e0C" secondAttribute="bottom" constant="60" id="ayF-fA-7mk"/>
                             <constraint firstItem="WMG-1v-e0C" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="88" id="iLH-iZ-UNR"/>
+                            <constraint firstItem="hCH-1s-PB9" firstAttribute="top" secondItem="hw2-0S-fRs" secondAttribute="bottom" constant="20" id="j5K-B6-zuY"/>
                         </constraints>
                     </view>
                 </viewController>
